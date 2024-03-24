@@ -1,38 +1,53 @@
-# create-svelte
+# Berks and Schylkill Beekeepers Association
 
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/main/packages/create-svelte).
+  
+![License](https://img.shields.io/static/v1?label=Language&message=JavaScript&color=yellow)
+![License](https://img.shields.io/static/v1?label=Language&message=HTML5&color=orange) ![License](https://img.shields.io/static/v1?label=Language&message=CSS3&color=blue) ![License](https://img.shields.io/static/v1?label=Framework&message=SvelteKit&color=green) 
+![License](https://img.shields.io/static/v1?label=Framework&message=React-Bootstrap&color=pink)
 
-## Creating a project
+<p>&nbsp;<p>
 
-If you're seeing this, you've probably already done this step. Congrats!
+<strong><em>About This Project:</strong></em>
 
-```bash
-# create a new project in the current directory
-npm create svelte@latest
+<p>&nbsp;<p>
 
-# create a new project in my-app
-npm create svelte@latest my-app
-```
+Berks and Schylkill Beekeepers Association — We'll help anyone who wants to raise bees.
 
-## Developing
+`bsba.buzz` => [bsba-buzz.netlify.app](https://bsba-buzz.netlify.app)
 
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
+<p>&nbsp;<p>
 
-```bash
-npm run dev
+------
+<p>&nbsp;<p>
 
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
-```
+## Credits
 
-## Building
+<p>&nbsp;<p>
 
-To create a production version of your app:
+<strong><em>Third party assets:</strong></em>
 
-```bash
-npm run build
-```
+<p>&nbsp;</p>
 
-You can preview the production build with `npm run preview`.
+`SvelteKit` =>‏‏‎ ‎ ‏‏‎ ‎[Web development, streamlined.](https://kit.svelte.dev/) Powered by Svelte and Vite, speed is baked into every crevice: fast setup, fast dev, fast builds, fast page loads, fast navigation.
 
-> To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
+<p>&nbsp;‏‏‎‏‏‎ ‎<strong>+</strong></p>
+
+`Bootstrap` =>‏‏‎ ‎ ‏‏‎ ‎[Build fast, responsive sites with Bootstrap](https://getbootstrap.com/) Powerful, extensible, and feature-packed frontend toolkit. Build and customize with Sass, utilize prebuilt grid system and components, and bring projects to life with powerful JavaScript plugins.
+
+<p>&nbsp;‏‏‎‏‏‎ ‎<strong>+</strong></p>
+
+`Netlify` =>‏‏‎ ‎ ‏‏‎ ‎[Connect everything. Build anything.](https://www.netlify.com/)
+
+<p>&nbsp;<p>
+
+---
+
+<p>&nbsp;<p>
+
+## Questions?
+
+<p>&nbsp;<p>
+
+Shoot me an e-mail! => jonathan@jonathanschimpf.com
+
+<p>&nbsp;<p>

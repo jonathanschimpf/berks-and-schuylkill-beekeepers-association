@@ -1,4 +1,5 @@
 <script>
+	import 'bootstrap/dist/css/bootstrap.min.css';
 	import Nav from '$lib/Nav.svelte';
 </script>
 

@@ -1,10 +1,9 @@
 <script>
-	import { base } from '$app/paths';
 	import { faPaypal } from '@fortawesome/free-brands-svg-icons';
 	import { FontAwesomeIcon } from '@fortawesome/svelte-fontawesome';
 </script>
 
-<div src="${base}" class="maincenteringcontainer">
+<div class="maincenteringcontainer">
 	<a
 		href="https://www.paypal.com/paypalme/BSCBeekeepers"
 		target="_blank"

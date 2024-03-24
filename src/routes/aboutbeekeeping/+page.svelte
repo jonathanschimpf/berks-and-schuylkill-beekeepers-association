@@ -1,8 +1,7 @@
 <script>
-	import { base } from '$app/paths';
 </script>
 
-<div src=${base} class="maincenteringcontainer " >
+<div class="maincenteringcontainer " >
 
     <h2>About Beekeeping</h2>
 </div>
