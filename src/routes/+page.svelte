@@ -2,7 +2,8 @@
 </script>
 
 <div class="maincenteringcontainer">
-	<h2>Berks and Schuylkill Beekeepers Association</h2>
+	<h2>Berks and Schuylkill</h2>
+	<h2>Beekeepers Association</h2>
 	<p>We'll help anyone who wants to raise bees.</p>
 </div>
 
@@ -17,23 +18,16 @@
 
 	h2 {
 		color: rgb(0, 0, 0);
-        font-weight: 900;
-	}
-
-	@media (max-width: 767px) {
-		h2 {
-			font-size: 3.5vw;
-		}
+		font-weight: 900;
 	}
 
 	p {
-		color: rgb(190, 190, 190);
+		color: rgb(160, 160, 160);
 	}
 
 	@media (max-width: 767px) {
 		p {
-			font-size: 2vw;
+			font-size: 3.6vw;
 		}
 	}
-
 </style>
