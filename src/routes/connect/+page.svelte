@@ -34,22 +34,39 @@
 </script>
 
 <div class="topcenteringcontainer" in:fade={{ duration: 2000 }}>
-	<h2>
-		Connect
+	<div class="heading-container">
 		<a
 			href="https://www.facebook.com/BerksSchuylkillBeekeepers"
 			rel="noreferrer"
 			target="_blank"
 			aria-label="Berks Schuylkill Beekeepers Association"
+			class="no-text-decoration heading-link"
 		>
-			<FontAwesomeIcon icon={faFacebook} class="facebook-icon" />
+			<h2>Connect</h2>
 		</a>
-	</h2>
-	<img
-		src={`/images/douglas-raggio-vZGvVTO1pIg-unsplash.jpg`}
-		class="beekeepersconnectingphoto"
-		alt="Beekeepers Connecting"
-	/>
+		<a
+			href="https://www.facebook.com/BerksSchuylkillBeekeepers"
+			rel="noreferrer"
+			target="_blank"
+			aria-label="Berks Schuylkill Beekeepers Association"
+			class="icon-link"
+		>
+			<FontAwesomeIcon icon={faFacebook} class="fa-2xl" style="color: #4267B2;" />
+		</a>
+	</div>
+
+	<a
+		href="https://www.facebook.com/BerksSchuylkillBeekeepers"
+		rel="noreferrer"
+		target="_blank"
+		aria-label="Beekeepers Connecting"
+	>
+		<img
+			src={`/images/douglas-raggio-vZGvVTO1pIg-unsplash.jpg`}
+			class="beekeepersconnectingphoto"
+			alt="Beekeepers Connecting"
+		/>
+	</a>
 </div>
 
 {#if !fbLoaded}
@@ -67,12 +84,34 @@
 			data-adapt-container-width="true"
 			data-hide-cover="false"
 			data-show-facepile="true"
-			data-height="1000"
+			data-height="5000"
 		></div>
 	</div>
 {/if}
 
 <style>
+	.heading-container {
+		display: flex;
+		align-items: center;
+	}
+
+	.heading-link {
+		display: flex;
+		align-items: center;
+	}
+
+	.heading-link h2 {
+		margin-right: 0.5rem;
+	}
+
+	.icon-link {
+		display: flex;
+		align-items: center;
+		line-height: 1;
+		margin-left: 7rem;
+		padding-bottom: 0.80rem;
+	}
+
 	.topcenteringcontainer {
 		display: flex;
 		flex-direction: column;
@@ -80,18 +119,26 @@
 		justify-content: center;
 		margin-top: 8.5em;
 	}
+
 	.beekeepersconnectingphoto {
 		width: 343px;
 		border-radius: 5px;
+		display: block;
 	}
+	.topcenteringcontainer a {
+		text-decoration: none;
+		color: inherit;
+	}
+
 	.loading-container {
 		display: flex;
 		justify-content: center;
 		align-items: center;
-		min-height: 10vh; /* Adjust as needed */
+		min-height: 10vh;
 	}
+
 	.loading-facebook-msg {
-		color: #4267B2;
+		color: #4267b2;
 	}
 	.facebook-plugin-container {
 		display: flex;
