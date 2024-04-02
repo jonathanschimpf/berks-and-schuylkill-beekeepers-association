@@ -1,9 +1,10 @@
 <script>
 </script>
 
-<div class="maincenteringcontainer " >
+<div class="maincenteringcontainer" >
 
     <h2>About Beekeeping</h2>
+
 </div>
 
 <style>

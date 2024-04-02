@@ -19,6 +19,9 @@
   <slot />
   
   <style>
+	 :global(*) {
+    box-sizing: border-box;
+  }
 	:global(body, html) {
 	  background-color: rgb(255, 255, 255) !important; /* SPECIFIC OVERRIDE */
 	  font-family: 'Futura', sans-serif; 
