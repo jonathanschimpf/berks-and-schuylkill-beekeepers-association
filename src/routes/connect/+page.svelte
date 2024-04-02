@@ -49,7 +49,7 @@
 Beekeepers Association — We'll help anyone who wants to raise bees."
 			src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FBerksSchuylkillBeekeepers&tabs=timeline&width=415&height=5000&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId"
 			width="415"
-			height="2630"
+			height="2720"
 			style="border:none;overflow:hidden"
 			scrolling="no"
 			frameborder="0"
@@ -75,7 +75,7 @@ Beekeepers Association — We'll help anyone who wants to raise bees."
 		flex-direction: column; /* STACKS THE CHILDREN VERTICALLY */
 		align-items: center; /* CENTERS CHILDREN ALONG THE HORIZONTAL CROSS ACCESS */
 		justify-content: center; /* CENTERS CHILDREN ACROSS THE MAIN VERTICAL AXIS */
-		margin-top: 11em;
+		margin-top: 5em;
 	}
 
 	.heading-container {
@@ -124,8 +124,9 @@ Beekeepers Association — We'll help anyone who wants to raise bees."
 	}
 
 	.beekeepersconnectingphoto {
-		width: 415px;
+		width: 410px;
 		border-radius: 5px;
 		margin-bottom: 20px;
 	}
+
 </style>
